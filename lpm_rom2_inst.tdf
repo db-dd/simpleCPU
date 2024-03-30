@@ -1,0 +1,10 @@
+(
+	q_sig[]
+) = lpm_rom2	(
+	.address[] = address_sig[],
+	.clock = clock_sig,
+	.rden = rden_sig
+)
+RETURNS (
+	.q[]
+);
